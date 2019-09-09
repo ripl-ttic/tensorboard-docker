@@ -6,6 +6,6 @@ RUN pip3 install --no-cache-dir tensorflow
 
 VOLUME /tflog
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["python3", "-m", "tensorflow.tensorboard", "--logdir=/tflog"]
