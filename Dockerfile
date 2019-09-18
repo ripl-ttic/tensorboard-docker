@@ -8,4 +8,4 @@ VOLUME /tflog
 
 EXPOSE 80
 
-CMD ["tensorboard", "--logdir=/tflog", "--port=80"]
+CMD ["tensorboard", "--logdir=/tflog"]
