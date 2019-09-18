@@ -4,7 +4,7 @@ Use this image to run a Tensorboard Docker container.
 You can run it using the following command:
 
 ```
-docker run -itd -p YOUR_PORT:6006 --name tensorboard-`whoami` --user=$UID -v YOUR_TFLOG_DIR:/tflog ripl/tensorboard
+docker run -itd -p YOUR_PORT:6006 --user=$UID -v YOUR_TFLOG_DIR:/tflog ripl/tensorboard
 ```
 
 where
